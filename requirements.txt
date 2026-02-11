@@ -1,0 +1,38 @@
+# Core Dependencies for Fine-Tuning DeepSeek-R1-Distill-Qwen-1.5B
+# Compatible with CUDA 11.8+ / CUDA 12.1+
+
+# Deep Learning Framework
+torch>=2.1.0
+torchvision>=0.16.0
+
+# HuggingFace Libraries
+transformers>=4.50.0
+datasets>=2.14.0
+huggingface-hub>=0.20.0
+tokenizers>=0.15.0
+
+# Fine-Tuning Libraries
+peft>=0.14.0
+trl>=0.12.0
+accelerate>=1.2.0
+
+# Quantization
+bitsandbytes>=0.46.1
+
+# Monitoring and Logging
+tensorboard>=2.15.0
+wandb>=0.16.0  # Optional, for experiment tracking
+
+# Scientific Computing
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Jupyter Support
+ipython>=8.12.0
+ipywidgets>=8.0.0
+jupyter>=1.0.0
+
+# Additional Utilities
+safetensors>=0.4.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
